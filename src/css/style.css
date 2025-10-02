@@ -1,0 +1,135 @@
+.cartao {
+  width: 400px;
+  margin: 50px auto;
+  background-color: rgba(37, 34, 34, 0.9);
+  border: 2px solid #e126d9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  overflow: hidden;
+  padding: 20px;
+  overflow: hidden;
+}
+
+
+
+.cartao .minhas-informacoes {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.cartao .minhas-informacoes img{
+  border-radius: 50px;
+  border: 4px solid #02d08f;
+}
+
+.cartao .minhas-informacoes .nome{
+    font-size: 32px;
+    color: #26e14f;
+}
+
+.cartao .minhas-informacoes .cargo{
+    font-size: 20px;
+    color: #b8bbc5;
+}
+
+.cartao .conteudo {
+  margin-top: 15px;
+}
+
+.cartao .abas{
+    display: flex;
+}
+
+.cartao .abas .aba{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.informacoes-abas span {
+  color: #02d08f;
+}
+
+.cartao .abas img {
+  width: 30px;  
+}
+
+.cartao .abas .aba.selecionado {
+  background-color: #302f2f;
+}
+
+.cartao .informacoes-abas{
+    background-color: #302f2f;
+}
+
+.cartao .abas .aba:hover{
+    background-color: #302f2f;
+}
+
+.informacoes-abas .informacao{
+    min-height: 260px;
+    padding: 20px;
+    display: none;
+}
+
+.informacoes-abas .informacao.selecionado{
+    display: block;
+}
+
+.informacoes-abas .sub-titulo{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #26e14f;
+}
+
+.informacoes-abas .descricao{
+    font-size: 20px;
+    max-height: 180px;
+    overflow-y: auto;
+    padding-right: 15px;
+}
+
+.redes-sociais{
+    display: flex;
+    gap: 25px;
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+    max-height: 180px;
+    overflow-y: auto;
+}
+
+.redes-sociais li a{
+    background-color: red;
+    width: 250px;
+    display: block;
+    color: #f3f3f3;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.redes-sociais li a:hover{
+    opacity: 0.8;
+}
+
+.redes-sociais .curriculo{
+    background-color: #02d08f;
+}
+
+.redes-sociais .linkedin{
+    background-color: #0a66c2;
+}
+
+.redes-sociais .github{
+    background-color: #545454;
+}
+
